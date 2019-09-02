@@ -14,7 +14,7 @@ if (isset($registration)) {
 }
 ?>
 <!-- css link -->
-<link rel="stylesheet" type="text/css" href="form.css">
+<link rel="stylesheet" type="text/css" href="views/form.css">
 <!-- register form -->
 <form class="formbox" method="post" action="register.php" name="registerform">
 

@@ -14,15 +14,15 @@ if (isset($login)) {
 }
 ?>
 <!-- css link -->
-<link rel="stylesheet" type="text/css" href="form.css">
+<link rel="stylesheet" type="text/css" href="views/form.css">
 <!-- login form box -->
 <form class="formbox" method="post" action="index.php" name="loginform">
 
     <label for="login_input_username">Username</label>
     <input id="login_input_username" class="login_input" type="text" name="user_name" required />
-
+    <br />
     <label for="login_input_password">Password</label>
-
+    <br/>
     <input id="login_input_password" class="login_input " type="password" name="user_password" autocomplete="off" required />
     <br />
     <input type="submit" name="login" value="Log in" />
