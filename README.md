@@ -8,33 +8,13 @@ In the PHP world every beginner tries to build login systems from scratch, doing
 
 This script was originally part of the "php-login project", a collection of 4 different login scripts made in the 2012-2013 PHP era to give especially beginners and security-inexperienced users a set of basic auth functions that fitted the most modern password hashing standards possible. You know, this was the time when even major companies like SONY and LinkedIn used horrible outdated MD5-hashing for their passwords (or even saved everything in plain text) and when the big PHP frameworks didn't have proper user auth solution out-of-the-box.
 
-[![Support the project](_support/banner-host1plus.png)](https://affiliates.host1plus.com/ref/devmetal/36f4d828.html)
-
-Find the other versions here:
-
-**One-file version** (not maintained anymore)
-Full login script in one file. Uses a one-file SQLite database (no MySQL needed) and PDO: Register, login, logout.
-https://github.com/panique/php-login-one-file
-
-**Minimal version** (not maintained anymore)
-All the basic functions in a clean file structure, uses MySQL and mysqli. Register, login, logout.
-https://github.com/panique/php-login-minimal
-
-**Advanced version** (not maintained anymore)
-Similar to the minimal version, but full of features. Uses PDO, Captchas, mail sending via SMTP and much more.
-https://github.com/panique/php-login-advanced
-
-**HUGE (professional version)** 
-Quite professional MVC framework structure, useful for real applications. Additional features like: URL rewriting, mail sending via PHPMailer (SMTP or PHP's mail() function/linux sendmail), user profile pages, public user profiles, gravatars and local avatars, account upgrade/downgrade etc., OAuth2, Composer integration, etc.
-https://github.com/panique/huge
-
 ## Requirements
 
 - PHP 5.3.7+
 - MySQL 5 database (please use a modern version of MySQL (5.5, 5.6, 5.7) as very old versions have a exotic bug that
 [makes PDO injections possible](http://stackoverflow.com/q/134099/1114320).
 - activated mysqli (last letter is an "i") extension (activated by default on most server setups)
-
+- Works with
 ## Installation (quick setup)
 
 Create a database *login* and the table *users* via the SQL statements in the `_install` folder.
@@ -67,12 +47,3 @@ private or commercial projects.
 ## Contribute
 
 Please create a feature-branch if possible when committing to the project, if not then simply commit to master branch.
-
-## Support
-
-If you think this script is useful and saves you a lot of work, then think about supporting the project by renting
-a server at [HOST1PLUS](https://affiliates.host1plus.com/ref/devmetal/36f4d828.html).
-
-## I'm blogging...
-
-at **[DEV METAL](http://www.dev-metal.com)**, mostly about PHP and IT-related stuff. Have a look if you like.
