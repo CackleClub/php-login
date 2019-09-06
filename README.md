@@ -47,3 +47,7 @@ private or commercial projects.
 ## Contribute
 
 Please create a feature-branch if possible when committing to the project, if not then simply commit to master branch.
+
+## Donate
+
+[PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=rlp61005%40gmail.com&currency_code=USD&source=url)
